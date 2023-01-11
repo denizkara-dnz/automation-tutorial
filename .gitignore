@@ -9,3 +9,38 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+# TestNG
+test-output/**
+test-output/*
+test-output/
+
+#Report
+ErrorScreenshots
+Report
+
+# Logs
+*.log
+/extent.html
+/Report/
+/lib/
+logfile.log
+
+chromedriver
